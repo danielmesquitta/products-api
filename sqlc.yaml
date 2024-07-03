@@ -1,0 +1,9 @@
+version: "2"
+sql:
+  - schema: "sql/migrations/*.sql"
+    queries: "sql/queries"
+    engine: "mysql"
+    gen:
+      go:
+        package: "mysqldb"
+        out: "internal/provider/db/mysqldb"
