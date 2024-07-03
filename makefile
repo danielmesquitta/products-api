@@ -11,7 +11,7 @@ run:
 clear:
 	@rm ./tmp/main
 install:
-	@go mod download
+	@go mod download && go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest && go install github.com/swaggo/swag/cmd/swag@latest && go install github.com/pressly/goose/v3/cmd/goose@latest && go install github.com/air-verse/air@latest
 test:
 	@go test ./...
 docs:
