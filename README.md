@@ -19,7 +19,7 @@ It is written in Go and uses the Echo framework and a MySQL database.
 
 ## API Endpoints
 
-All API endpoints are already documented in the Swagger available at the `/api/v1/docs` route.
+All API endpoints are already documented in the Swagger available at the `/api/v1/docs/index.html` route.
 Here is an overview:
 
 - `GET /api/v1/products`: List all products.

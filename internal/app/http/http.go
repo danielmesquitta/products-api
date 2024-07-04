@@ -38,6 +38,7 @@ func Start() {
 		usecase.NewUpdateProduct,
 
 		// Handlers
+		handler.NewHealthHandler,
 		handler.NewProductHandler,
 
 		// Middleware
